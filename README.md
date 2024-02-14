@@ -7,4 +7,5 @@ This a Firefox extension that makes navigating https://kanji.jitenon.jp/cat/ eas
 - You can filter out Kanji that you want to see, Jouyou, Jinmeiyou, Uncommons and also reset what is being displayed.
 
 ## Limitations
-- It does not truly filter out kanji, rather it is a bit of Node manipulation via the class attribute, due to Jouyou Kanji's <li> and Jinmeiyou Kanji's <li> having classes that represent different colors
+- It does not truly filter out kanji, rather it is a bit of Node manipulation via the class attribute, due to Jouyou Kanji's <li> and Jinmeiyou Kanji's <li> having classes that represent different colors.
+- I haven't figured out how to make popup only work for that particular website
