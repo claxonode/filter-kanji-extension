@@ -1,0 +1,27 @@
+{
+    "description": "Filter kanji that you want to see when searching https://kanji.jitenon.jp/cat/",
+    "manifest_version": 2,
+    "name":"Filter Kanji",
+    "version": "1.0",
+    "icons": {
+        "64": "icons/kanji-64.png"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+    ,
+    "browser_action": {
+        "default_icon":"icons/kanji-64.png",
+        "default_title": "Filter Kanji",
+        "default_popup": "popup/choose_filter.html"
+    },
+    "commands": {
+        "_execute_browser_action": {
+          "suggested_key": {
+            "default": "Ctrl+Alt+Q"
+          }
+        }
+    }
+    
+    
+}
