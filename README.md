@@ -18,5 +18,5 @@ I completed this project in a week.
 
 ## How to Install
 1. Clone this repo, ```git clone https://github.com/claxonode/filter-kanji-extension/```
-2. Go to about:debugging#/runtime/this-firefox on Firefox
+2. Go to ```about:debugging#/runtime/this-firefox``` on Firefox
 3. Under the Temporary Extension section, click on ```Load Temporary Add-on...``` and select the manifest.json that you just cloned.
